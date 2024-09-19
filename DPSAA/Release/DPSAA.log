@@ -1,0 +1,13 @@
+﻿  DPSAA.cpp
+D:\MyApp\DPSAA\DPSAA\Task_5_1.cpp(31,35): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+D:\MyApp\DPSAA\DPSAA\Task_5_1.cpp(31,27): warning C4309: 'initializing': truncation of constant value
+D:\MyApp\DPSAA\DPSAA\Task_5_1.cpp(48,32): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+D:\MyApp\DPSAA\DPSAA\T2C.cpp(69,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyApp\DPSAA\DPSAA\T2B (1).cpp(60,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyApp\DPSAA\DPSAA\DPSAA.cpp(121,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\MyApp\DPSAA\DPSAA\DPSAA.cpp(197,23): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 289 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DPSAA.vcxproj -> D:\MyApp\DPSAA\Release\DPSAA.exe
