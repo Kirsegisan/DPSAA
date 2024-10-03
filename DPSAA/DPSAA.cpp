@@ -6,7 +6,7 @@
 #include <string>
 #include <cstdlib>
 #include "Task_4.cpp"
-#include "Task_5_1.cpp"
+#include "Task_5_2.cpp"
 #include "T3.cpp"
 #include "T2C.cpp"
 #include "T2B (1).cpp"
@@ -167,38 +167,38 @@ list* enterList() {
 }
 
 
-void V2()
-{
-    int size;
-    std::cin >> size;
-    size;
-    int * data = new int[size];
-    int angle;
-    for (int i = 0; i < size; i++)
-    {
-        std::cin >> angle;
-        if (0 <= angle && angle < 8) {
-            data[i] = angle;
-        }
-        else 
-        {
-            std::cout << "Wrong value";
-            i--;
-        }
-    }
-
-    for (int i = 0; i < size; i++)
-    {
-        std::cout << data[i] << ' ';
-    }
-    std::cout << std::endl;
-    vector<int> answer;
-    answer = T2A(data, size);
-    for (int i = 0; i < answer.size(); i++)
-    {
-        std::cout << answer[i] << "  ";
-    }
-}
+//void V2()
+//{
+//    int size;
+//    std::cin >> size;
+//    size;
+//    int * data = new int[size];
+//    int angle;
+//    for (int i = 0; i < size; i++)
+//    {
+//        std::cin >> angle;
+//        if (0 <= angle && angle < 8) {
+//            data[i] = angle;
+//        }
+//        else 
+//        {
+//            std::cout << "Wrong value";
+//            i--;
+//        }
+//    }
+//
+//    for (int i = 0; i < size; i++)
+//    {
+//        std::cout << data[i] << ' ';
+//    }
+//    std::cout << std::endl;
+//    vector<int> answer;
+//    answer = T2A(data, size);
+//    for (int i = 0; i < answer.size(); i++)
+//    {
+//        std::cout << answer[i] << "  ";
+//    }
+//}
 
 //int main()
 //{
@@ -346,15 +346,15 @@ int main() {
                 break;
             }
             case 4: {
-                psl = Task_5_1;
+                psl = Task_5_2;
                 break;
             }
             case 5: {
-                psl = T1V;
+                //psl = T1V;
                 break;
             }
             case 6: {
-                psl = V2;
+                //psl = V2;
                 break;
             }
             default: {
@@ -365,3 +365,4 @@ int main() {
         psl();
     }
 }
+//Бесполезный комментарий
