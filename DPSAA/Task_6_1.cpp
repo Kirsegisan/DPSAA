@@ -133,11 +133,11 @@ void userInterface() {
     HashTable hashTable;
 
     // Автоматическое заполнение таблицы
-    hashTable.insert(12345, "Сталин Иосиф", "Москва, Красная площадь, д. 1");
-    hashTable.insert(23456, "Петров Петр", "Санкт-Петербург, ул. Пушкина, д. 2");
-    hashTable.insert(34567, "Троцкий Лев", "Екатеринбург, ул. Чехова, д. 3");
-    hashTable.insert(45678, "Кузнецов Кузьма", "Казань, ул. Толстого, д. 4");
-    hashTable.insert(56789, "Дзержинский Феликс", "Нижний Новгород, ул. Гоголя, д. 5");
+    hashTable.insert(12345, "Имя1", "Адресс1");
+    hashTable.insert(23456, "Имя2", "Адресс2");
+    hashTable.insert(34567, "Имя3", "Адресс3");
+    hashTable.insert(45678, "Имя4", "Адресс4");
+    hashTable.insert(56789, "Имя5", "Адресс5");
 
     while (true) {
         cout << "Введите команду (insert, search, delete, display, exit): ";
